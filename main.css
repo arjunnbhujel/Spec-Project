@@ -1,0 +1,77 @@
+body{
+    font-family: 'Schibsted Grotesk', sans-serif;
+    color: #1E1E24;
+    background-color: #FFFBFF;
+}
+
+/* logo and signin button styling */
+
+.top{
+    display: flex;
+    justify-content:space-between;
+    margin: 20px;
+}
+
+.top__logo{
+    height:44px;
+    width:200px;
+}
+
+button{
+    font-family: 'Schibsted Grotesk', sans-serif;
+    padding: 0.5rem 1rem;
+    color: #f55050;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #FFFBFF;
+    border: 0.1rem solid #f55050;
+    border-radius: 4px;
+}
+
+.top__signin{
+    height: 2.2rem;
+    width: 6rem;
+}
+
+
+/* Styling of navigation page */
+.nav{
+    border-top: 0.1rem solid #f55050;
+    border-bottom: 0.1rem solid #f55050;
+}
+.nav__container{
+    display: flex;
+    justify-content: space-around;
+    margin: 0.5rem;
+}
+
+a{
+    font-family: 'Schibsted Grotesk', sans-serif ;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #f55050;
+
+}
+
+li{
+    list-style: none;
+}
+
+/* styling content of the page */
+
+.article{
+    font-family: 'Schibsted Grotesk', sans-serif ;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+h5{
+    font-size: 1.6rem;
+    font-weight: 600;
+}

@@ -9,19 +9,20 @@ body{
 .top{
     display: flex;
     justify-content:space-between;
+    align-items: center;
     margin: 20px;
 }
 
 .top__logo{
-    height:44px;
-    width:200px;
+    height:54px;
+    width:auto;
 }
 
 button{
     font-family: 'Schibsted Grotesk', sans-serif;
     padding: 0.5rem 1rem;
     color: #f55050;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
     background-color: #FFFBFF;
     border: 0.1rem solid #f55050;
@@ -45,7 +46,7 @@ button{
     margin: 0.5rem;
 }
 
-a{
+a.nav__link{
     font-family: 'Schibsted Grotesk', sans-serif ;
     font-size: 1.4rem;
     font-weight: 600;
@@ -54,7 +55,7 @@ a{
 
 }
 
-li{
+li.nav__list{
     list-style: none;
 }
 
@@ -69,9 +70,89 @@ li{
 h1{
     font-size: 4rem;
     font-weight: 600;
+    text-align: center;
+    margin: 10px auto;
 }
 
 h5{
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: 600;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.article__share{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0 20px 0;
+}
+
+.article__shareicon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inner__shareicon{
+    padding: 0 20px 0 0;
+}
+
+.article__blog{
+    text-align: center;
+    margin: 10px 30px;
+}
+
+img.article_featuredimage {
+    border: 0.2rem solid #FFFBFF;
+    border-radius: 0.8rem;
+}
+
+p{
+    text-align: left;
+}
+
+.article__info{
+    display: flex;
+    justify-content: space-around;
+}
+
+h5.info{
+    text-align: left;
+}
+
+li{
+    text-align: left;
+    list-style: decimal;
+    color: #060645;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 2px solid #060645;
+    margin: 20px;
+    padding: 10px;
+}
+
+.footer__logo{
+    height: 64px;
+    width: auto;
+}
+
+.footer__nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__list{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+a.footer__navlink{
+    text-decoration: none;
+    color: #060645;
+    font-size: 18px;
 }

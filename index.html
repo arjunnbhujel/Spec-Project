@@ -21,10 +21,10 @@
     <!-- navigation of page -->
     <div class="nav">
         <ul class="nav__container">
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">NEWS</a></li>
-            <li><a href="#">UPDATES</a></li>
-            <li><a href="#">MORE</a></li>
+            <li class="nav__list"><a class="nav__link" href="#">HOME</a></li>
+            <li class="nav__list"><a class="nav__link" href="#">NEWS</a></li>
+            <li class="nav__list"><a class="nav__link" href="#">UPDATES</a></li>
+            <li class="nav__list"><a class="nav__link" href="#">MORE</a></li>
         </ul>
     </div>
 
@@ -34,19 +34,21 @@
 
         <div class="article__share">
             <h5>By Arjun Bhujel</h5>
-            <img src="assets/facebook.png" alt="facebook logo">
-            <img src="assets/twitter.png" alt="twitter logo">
-            <button>share</button>
+            <div class="article__shareicon">
+                <img class="inner__shareicon" src="assets/facebook.png" alt="facebook logo" height="44px" width="44px">
+                <img class="inner__shareicon" src="assets/twitter.png" alt="twitter logo" height="44px" width="44px">
+                <button >Share</button>
+            </div>
         </div>
 
         <div class="article__blog">
-            <img src="assets/coding.jpg" alt="Coding Image">
+            <img class="article_featuredimage" src="assets/coding.jpg" alt="Coding Image" height="640px" width="auto">
             <p>Programming is an intriguing sector as it gives us the superpower to regulate computer programs on the go. It can be used for ships, traffic control, robotics, self-driving vehicles, smartphone applications, websites, and many other things.</p>
             <p>To ensure that you remain up to date on standards and protocols, and even more so in the field of coding, it is important to track developments in your field. Programmers of all specialties can easily benefit from keeping track of the new developments & following industry-leading blogs and websites.</p>
             <p>These bloggers have made a name for themselves in the programming world by posting important, high-quality data and tips for coders. You can learn tricks and shortcuts you would never have dreamed of doing otherwise by following programming blogs.</p>
 
+            <a href="#"><h5 class="info">more info</h5></a>
             <div class="article__info">
-                <h4>more info</h4>
                 <div class="article__pros">
                     <h5>Pros</h5>
                     <ul>
@@ -71,14 +73,14 @@
     </div>
 
     <footer>
-        <img src="assets/logo.svg" alt="Appacademy logo" class="footer__logo">
+        <img class="footer__logo" src="assets/logo.svg" alt="Appacademy logo" class="footer__logo">
         <div class="footer__nav">
             <ul>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Terms of use</a></li>
-                <li><a href="#">FAQs</a></li>
-                <li><a href="#">Privacy Policy</a></li>
+                <li class="footer__list"><a class="footer__navlink" href="#">Contact</a></li>
+                <li class="footer__list"><a class="footer__navlink" href="#">About Us</a></li>
+                <li class="footer__list"><a class="footer__navlink" href="#">Terms of use</a></li>
+                <li class="footer__list"><a class="footer__navlink" href="#">FAQs</a></li>
+                <li class="footer__list"><a class="footer__navlink" href="#">Privacy Policy</a></li>
             </ul>
         </div>
     </footer>
